@@ -62,6 +62,15 @@ set guioptions-=T
 set guioptions-=m
 set guifont=Bitstream_Vera_Sans_Mono:h11:cANSI
 
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=utf-8,cp936,gb18030,gbk,gb2312,ucs-bom,latin-1
+
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+
+language message zh_CN.utf-8
+
 nmap <leader>ee  :edit $MYVIMRC <CR>
 nmap <leader>hex :%!xxd<CR>
 nmap <leader>asc :%!xxd -r<CR>
