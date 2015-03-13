@@ -5,11 +5,14 @@
 ##windows
 ```java
 git clone https://github.com/Frankdog/MyVim.git %HOMEPATH%/vimfiles
-
+cd %HOMEPATH%
+git submodule update --init --recursive
 ```
 ##Linux
 ```java
 git clone https://github.com/Frankdog/MyVim.git ~/.vim
+cd ~/.vim
+git submodule update --init --recursive
 ```
 
 
