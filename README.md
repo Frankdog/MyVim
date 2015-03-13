@@ -7,7 +7,7 @@
 git clone https://github.com/Frankdog/MyVim.git $HOMEPATH
 
 ```
-#Linux
+##Linux
 ```java
 git clone https://github.com/Frankdog/MyVim.git ~
 ```
