@@ -1,10 +1,15 @@
+
 set nocompatible               " be iMproved
 filetype off                   " required!
 
 " 此处规定Vundle的路径  
-set rtp+=$VIM/vimfiles/bundle/vundle/
-call vundle#rc('$VIM/vimfiles/bundle/')
-
+if LINUX()
+    set rtp+=$HOME/.vim/bundle/vundle/
+    call vundle#rc('$HOME/.vim/bundle/')
+elseif WINDOWS()
+    set rtp+=$HOME/vimfiles/bundle/vundle/
+    call vundle#rc('$HOME/vimfiles/bundle/')
+endif
 " let Vundle manage Vundle
 " required!
 Bundle 'gmarik/vundle'
@@ -59,9 +64,9 @@ Bundle "Shougo/neocomplcache.vim"
 "------------------
 "snipmate 
 "------------------
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
+"Bundle "MarcWeber/vim-addon-mw-utils"
+"Bundle "tomtom/tlib_vim"
+"Bundle "garbas/vim-snipmate"
 
 " Optional:
 Bundle "honza/vim-snippets"
@@ -70,5 +75,8 @@ Bundle "honza/vim-snippets"
 "emmet
 "------------------
 Bundle "mattn/emmet-vim"
-
+"Utilsnips
+Bundle "SirVer/ultisnips"
+"MySnippets
+Bundle "Frankdog/MySnippets"
 filetype plugin indent on     " required!
