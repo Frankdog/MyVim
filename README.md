@@ -4,7 +4,7 @@
 #Usage
 ##windows
 ```java
-git clone https://github.com/Frankdog/MyVim.git $HOMEPATH/vimfiles
+git clone https://github.com/Frankdog/MyVim.git %HOMEPATH%/vimfiles
 
 ```
 ##Linux
