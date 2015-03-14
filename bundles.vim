@@ -64,9 +64,9 @@ Bundle "Shougo/neocomplcache.vim"
 "------------------
 "snipmate 
 "------------------
-"Bundle "MarcWeber/vim-addon-mw-utils"
-"Bundle "tomtom/tlib_vim"
-"Bundle "garbas/vim-snipmate"
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
 
 " Optional:
 Bundle "honza/vim-snippets"
@@ -75,8 +75,20 @@ Bundle "honza/vim-snippets"
 "emmet
 "------------------
 Bundle "mattn/emmet-vim"
-"Utilsnips
-Bundle "SirVer/ultisnips"
-"MySnippets
+
+"------------------
+"ultisnips
+"------------------
+"Bundle "SirVer/ultisnips"
+
+"------------------
+"Mysnippets
+"------------------
 Bundle "Frankdog/MySnippets"
+
+"------------------
+"MyPlugin
+"------------------
+Bundle "Frankdog/MyPlugin"
+
 filetype plugin indent on     " required!
