@@ -4,8 +4,8 @@
 #Usage
 ##windows
 ```java
-git clone https://github.com/Frankdog/MyVim.git %HOMEPROFILE%/vimfiles
-cd %HOMEPROFILE%
+git clone https://github.com/Frankdog/MyVim.git %USERPROFILE%/vimfiles
+cd %USERPROFILE%
 git submodule update --init --recursive
 ```
 ##Linux
