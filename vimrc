@@ -83,18 +83,6 @@ let g:neocomplcache_enable_at_startup = 1
 "let g:user_emmet_expandabbr_key = '<Tab>'
 autocmd FileType css,html imap <tab> <plug>(emmet-expand-abbr)
 
-"ultisnips
-let g:UltiSnipsExpandTrigger='<Tab>'
-let g:UltiSnipsJumpForwardTrigger='<Tab>'
-
-
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType c setlocal omnifunc=ccomplete#Complete
-
-
 if WINDOWS()
     au GUIEnter * simalt~x
 endif
