@@ -5,7 +5,7 @@
 ##windows
 ```java
 git clone https://github.com/Frankdog/MyVim.git %USERPROFILE%/vimfiles
-cd %USERPROFILE%
+cd %USERPROFILE%/vimfiles
 git submodule update --init --recursive
 ```
 ##Linux
